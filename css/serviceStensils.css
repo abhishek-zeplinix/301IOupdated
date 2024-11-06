@@ -1,0 +1,13 @@
+.stensil1 {
+    background: url(../images/general/stensils/spiral.png), url(../images/general/stensils/dots.png), url(../images/general/stensils/dots.png), url(../images/general/stensils/race_down.png);
+    background-repeat: no-repeat;
+    background-position: top -250px center, top 30% right 3%, bottom 30% left 3%, bottom 38px right 30%;
+    background-size: 500px, 100px, 100px, 200px;
+}
+
+.stensil2 {
+    background: url(../images/general/stensils/spiral.png);
+    background-repeat: no-repeat;
+    background-position: bottom -120px left 15%;
+    background-size: 500px;
+}

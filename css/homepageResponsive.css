@@ -1,0 +1,24 @@
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {
+
+    #schedule {
+        background: url(../images/homepage/schedule.png), var(--gradient-1);
+        background-repeat: no-repeat;
+        background-position: bottom right, bottom left 20%;
+        background-size: contain;
+    }
+}
+
+@media (min-width: 1200px) {
+    #headerBackground {
+        background: url(../images/homepage/back2.png);
+        background-position: center top;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 1400px) {}

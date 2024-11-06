@@ -1,0 +1,46 @@
+header img {
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+/* STRENGTHS */
+
+/* #strengths {} */
+
+#services .service {
+    box-shadow: var(--shadow-1);
+    border: 1px solid var(--pink);
+    background-color: white;
+    color: var(--grey-2);
+}
+
+#services .service img {
+    height: 50px;
+    aspect-ratio: 1/1;
+}
+
+#services .backdrop {
+    background: var(--gradient-1);
+}
+
+#services .service .fa-solid {
+    transform: rotate(45deg);
+    color: var(--pink);
+    font-size: 20px;
+}
+
+/* .workFlow {
+    column-gap: 30px;
+} */
+
+#howItWorks .workFlow>p {
+    background-color: var(--pink-3);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 15px 20px;
+    margin: 10px 20px;
+}

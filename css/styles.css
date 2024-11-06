@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html,
+body {
+    scroll-behavior: smooth;
+    position: relative;
+    height: 100%;
+}
+
+:root {
+    --pink: #CC338B;
+    --pink-2: #FFF4FA;
+    --pink-3: #F5D6E8;
+    --grey-1: #A0A0A0;
+    --grey-2: #666666;
+    --grey-3: #333333;
+    --grey-4: #D4D4D8;
+    --grey-5: #E6E6E6;
+    --dark-1: #18181B;
+    --shadow-1: 0 8px 16px 0 #0000001A;
+    --shadow-2: 0px 1px 5px #00000055;
+    --gradient-1: linear-gradient(180deg, #C940AC 0%, #A33575 100%);
+    ;
+    --gradient-2: linear-gradient(180deg, #CC338B 0%, #A33575 100%);
+    ;
+    --thin-border: 1px solid var(--grey-5);
+}
+
+* {
+    box-sizing: border-box;
+    /* background: none no-repeat center/cover local transparent; */
+    /*background: BG_image  BG_repeat BG_position/BG_size BG_attachment BG_color */
+    /* border: 1px solid black; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* TEXT COLOURS */
+
+.pink {
+    color: var(--pink);
+}
+
+.pink-2 {
+    color: var(--pink-2);
+}
+
+.pink-3 {
+    color: var(--pink-3);
+}
+
+.grey-1 {
+    color: var(--grey-1);
+}
+
+.grey-2 {
+    color: var(--grey-2);
+}
+
+.grey-3 {
+    color: var(--grey-3);
+}
+
+.grey-4 {
+    color: var(--grey-4);
+}
+
+.grey-5 {
+    color: var(--grey-5);
+}
+
+.dark-1 {
+    color: var(--dark-1);
+}
+
+.shadow-1 {
+    box-shadow: var(--shadow-1);
+}
+
+.shadow-2 {
+    box-shadow: var(--shadow-2);
+}
+
+.gradient-1 {
+    background: var(--gradient-1);
+}
+
+.gradient-2 {
+    background: var(--gradient-2);
+}
+
+.white-hover:hover {
+    color: white;
+}
+
+/* BACKGROUND COLOURS */
+
+.bg-pink {
+    background-color: var(--pink);
+}
+
+.bg-pink-2 {
+    background-color: var(--pink-2);
+}
+
+/* FONT SETTINGS */
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.jakarta {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+}
+
+/*
+    thin        fw-1: 100
+    light       fw-3: 300
+    regular     fw-4: 400
+    medium      fw-5: 500
+    semi-bold   fw-6: 600
+    bold        fw-7: 700
+    black       fw-9: 900 
+
+    h1 : 64px
+    h2 : 48px
+    h3 : 40px
+    h4 : 24px
+    h5 : 20px
+    h6 : 16px
+    p : 14px
+*/
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    color: var(--grey-3);
+    font-weight: 700;
+    font-size: 44px;
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 64px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 32;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+h4 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: var(--grey-3);
+    font-weight: 700;
+    font-size: 24px;
+}
+
+h5 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: var(--pink);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+h6 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    color: var(--grey-2);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.shadow-1 {
+    box-shadow: var(--shadow-1);
+}
+
+.shadow-2 {
+    box-shadow: var(--shadow-2);
+}
+
+/* NAVBAR LOGIN */
+
+nav a {
+    text-decoration: none;
+}
+
+nav h6 {
+    color: var(--grey-2)
+}
+
+nav h6:hover {
+    color: var(--pink);
+    font-weight: 600;
+}
+
+.logIn {
+    font-family: "Inter", sans-serif;
+    color: var(--dark-1);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* PINK Button */
+
+.pink-btn {
+    background-color: var(--pink);
+    border: 1px solid white;
+    color: white;
+}
+
+.pink-btn h5,
+.pink-btn h6 {
+    color: inherit;
+}
+
+.pink-btn:hover {
+    background-color: white;
+    border-color: var(--pink);
+    color: var(--pink);
+}
+
+/* WHITE Button */
+
+.white-btn {
+    background-color: white;
+    border: 1px solid var(--pink);
+    color: var(--pink);
+}
+
+.white-btn h5 {
+    color: inherit;
+    font-weight: 600;
+}
+
+.white-btn:hover {
+    background-color: var(--pink);
+    border-color: white;
+    color: white;
+}
+
+/* CONTACT US MODAL FORM */
+
+#form_Modal h6 {
+    color: var(--grey-2);
+}
+
+#form_Modal input,
+#form_Modal textarea {
+    background-color: transparent;
+    border: var(--thin-border);
+    border-radius: 4px;
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--pink-2);
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 20px 20px;
+}
+
+.socialMedia {
+    display: flex;
+}
+
+.socialMedia div {
+    border: 1px solid var(--grey-4);
+    border-radius: 50%;
+    min-width: 40px;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h6 {
+    color: var(--grey-2)
+}
+
+.socialMedia div:hover {
+    color: white;
+    background-color: var(--pink);
+}
+
+footer .container .row:last-child {
+    border-top: 1px solid var(--grey-1);
+}

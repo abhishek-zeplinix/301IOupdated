@@ -1,0 +1,245 @@
+/* HEADER */
+header>.container>.row {
+    background-color: var(--pink-2);
+}
+
+#headerBackground {
+    background: url(../images/homepage/back.png);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* STRENGTHS */
+
+/* #strengths {} */
+
+.strength {
+    box-shadow: var(--shadow-1);
+    border: var(--thin-border);
+    background-color: white;
+}
+
+.strength:hover {
+    background: var(--gradient-2);
+    color: white;
+}
+
+.strength p,
+.strength h4 {
+    color: inherit;
+}
+
+.strength img {
+    height: 45px;
+    aspect-ratio: 1/1;
+    background-color: white;
+}
+
+/* SCHEDULE */
+
+#schedule {
+    background: var(--gradient-1);
+    background-repeat: no-repeat;
+    background-position: bottom left 20%;
+    background-size: contain;
+}
+
+/* GALLERY */
+
+/* #industries{} */
+
+#gallery>div {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100px;
+    max-height: 350px;
+    aspect-ratio: 2/1;
+    border-radius: 24px;
+}
+
+#gallery>div:hover {
+    box-shadow: var(--shadow-1);
+}
+
+#gallery h4 {
+    color: white;
+    text-shadow: var(--shadow-2);
+}
+
+.fa-arrow-right-long {
+    text-shadow: inherit;
+    color: inherit;
+}
+
+#gallery h4:hover {
+    color: var(--pink);
+    text-shadow: none;
+}
+
+#gallery h6:hover {
+    text-shadow: 0px 0px 5px var(--pink) !important;
+}
+
+#gallery>div:nth-child(1) {
+    background-image: url(../images/homepage/gallery1.png);
+}
+
+#gallery>div:nth-child(2) {
+    background-image: url(../images/homepage/gallery2.png);
+}
+
+#gallery>div:nth-child(3) {
+    background-image: url(../images/homepage/gallery3.png);
+}
+
+#gallery>div:nth-child(4) {
+    background-image: url(../images/homepage/gallery4.png);
+}
+
+#gallery>div:nth-child(5) {
+    background-image: url(../images/homepage/gallery5.png);
+}
+
+#gallery>div:nth-child(6) {
+    background-image: url(../images/homepage/gallery6.png);
+}
+
+/* PARTNERS */
+
+/* #partners */
+
+#partnerLogos>div {
+    border: 1px solid rgb(255, 255, 255, 50%);
+    background-color: #ffffff15;
+}
+
+#partnerLogos img {
+    width: 90%;
+}
+
+/* CONTACT US */
+
+/* #contactUs */
+
+#contactUs img {
+    border: 4px solid white;
+}
+
+#form_Home input,
+#form_Home textarea {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+/* PRODUCTS */
+
+#products .swiper-button-next {
+    top: auto;
+    bottom: 0;
+    left: auto;
+    right: 120px;
+}
+
+#products .swiper-button-prev {
+    top: auto;
+    bottom: 0;
+    left: auto;
+    right: 220px;
+}
+
+#products .swiper-btn {
+    color: var(--pink);
+    border: var(--thin-border);
+    padding: 40px;
+    border-width: 2px;
+    border-radius: 50%;
+}
+
+.product {
+    border: var(--thin-border);
+    background-color: var(--pink-2);
+    box-shadow: var(--shadow-1);
+}
+
+.product .row>div:nth-child(2) {
+    background:
+        url('../images/general/responsive3.png') no-repeat right top / auto 40%,
+        var(--gradient-2) no-repeat,
+        center/cover local var(--pink);
+}
+
+.core-tech {
+    background-color: var(--pink-3);
+    width: fit-content;
+}
+
+/* BLOGS */
+#blogs .swiper-button-next {
+    top: auto;
+    bottom: 0;
+    left: auto;
+    right: 120px;
+}
+
+#blogs .swiper-button-prev {
+    top: auto;
+    bottom: 0;
+    left: auto;
+    right: 220px;
+}
+
+#blogs .swiper-btn {
+    border: var(--thin-border);
+    border-width: 2px;
+    border-radius: 50%;
+    transform: scale(0.7);
+    color: var(--pink);
+    padding: 40px;
+}
+
+.blog {
+    border: var(--thin-border);
+    box-shadow: var(--shadow-1);
+    height: auto;
+    background-color: white;
+}
+
+.blog .fa-solid {
+    transform: rotate(45deg);
+    color: var(--pink);
+    font-size: 24px;
+}
+
+.blog .thumbnail {
+    object-fit: cover;
+    width: 100%;
+}
+
+.blog>.row>div {
+    padding: 25px 35px;
+}
+
+#blogs .swiper-pagination {
+    color: var(--grey-1);
+    top: auto;
+    bottom: 0;
+    left: 2%;
+    display: flex;
+    justify-content: left;
+    padding: 30px;
+}
+
+#blogs .swiper-pagination-bullet {
+    height: 15px;
+    width: 15px;
+    margin-left: 20px;
+}
+
+#blogs .swiper-pagination-bullet-active {
+    background-color: var(--pink);
+    height: 15px;
+    width: 15px;
+}

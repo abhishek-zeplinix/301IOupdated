@@ -1,0 +1,67 @@
+.stensil1 {
+    background: url(../images/general/stensils/race_down.png) no-repeat bottom left / 200px;
+}
+
+
+@media (min-width: 992px) {
+    .stensil2 {
+        background: url(../images/general/stensils/dots.png);
+        background-repeat: no-repeat;
+        background-position: top 20% right 5%;
+        background-size: 100px;
+    }
+
+    .stensil3 {
+        background: url(../images/general/stensils/race_right.png), url(../images/general/stensils/spiral.png), url(../images/general/stensils/spiral.png);
+        background-repeat: no-repeat;
+        background-position: top 10% left, top -42% left 27%, bottom right -13%;
+        background-size: 180px, 600px, 400px;
+    }
+
+    .stensil4 {
+        background: url(../images/general/stensils/spin.png) no-repeat top 5% right 33% / 150px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .stensil2 {
+        background: url(../images/general/stensils/dots.png), url(../images/general/stensils/track.png);
+        background-repeat: no-repeat;
+        background-position: top 25% right 5%, bottom left 5%;
+        background-size: 100px, 80%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .stensil2 {
+        background: url(../images/general/stensils/dots.png), url(../images/general/stensils/track.png);
+        background-repeat: no-repeat;
+        background-position: top 25% right 5%, bottom left 20%;
+        background-size: 100px, 70%;
+    }
+}
+
+@media (min-width: 1600px) {
+    .stensil2 {
+        background: url(../images/general/stensils/dots.png), url(../images/general/stensils/track.png);
+        background-repeat: no-repeat;
+        background-position: top 25% right 5%, bottom left 32%;
+        background-size: 100px, 50%;
+    }
+}
+
+
+.stensil5 {
+    background: url(../images/general/stensils/spin.png), url(../images/general/stensils/intro.png);
+    background-repeat: no-repeat;
+    background-position: top -4% right 5%, top 40% center;
+    background-size: 150px, contain;
+}
+
+.stensil6 {
+    background: url(../images/general/stensils/spin.png), url(../images/general/stensils/spiral.png);
+    background-repeat: no-repeat;
+    background-position: top 4% right 1%, bottom -23% left -18%;
+    background-size: 150px, 450px;
+}
